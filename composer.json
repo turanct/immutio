@@ -1,0 +1,22 @@
+{
+    "name": "turanct/immutio",
+    "description": "PHP api wrapper for immut.io",
+    "type": "library",
+    "homepage": "http://github.com/turanct/immutio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "spinnewebber_toon@hotmail.com",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Immutio\\": "src/"
+        }
+    }
+}
