@@ -7,7 +7,7 @@ A PHP wrapper for the immut.io API.
 Usage
 -----------------------------
 
-Installing it is easy, just require `turanct/immutio` as a dependency in your `composer.json` file. You'll also need one of the transports (e.g. [BuzzTransport](https://github.com/turanct/immutio-buzz)).
+Installing it is easy, just require `turanct/immutio` as a dependency in your `composer.json` file. You'll also need one of the transports (e.g. [BuzzTransport](https://github.com/turanct/immutio-buzz)). If you use one of the existing transport packages, you should only require that package, it will include this one automatically.
 
 ```json
 {
